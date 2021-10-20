@@ -4,12 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>C.W.Munch Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <main>
+      <!--------------- LANDING PAGE-------------->
+      <section id="landing">
+        <!--------------- HEADER -------------->
+        <nav class="top__menu">
+          <h1 class="logo">C.W. Munch</h1>
+          <ul class="menu__links">
+            <li class="menu__link"><a href="#landing">Home</a></li>
+            <li class="menu__link"><a href="#about">About</a></li>
+            <li class="menu__link"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!--------------- LANDING-------------->
+        <div class="landing__content">
+          <div class="landing__profile"></div>
+          <h2 class="landing__text">Welcome to my portfolio</h2>
+        </div>
+      </section>
+      <!--------------- INTRO -------------->
+      <div class="intro">
+        <div class="intro__texts">
+          <h1 class="hide__text">
+            <span class="intro__text">My name is Christian</span>
+          </h1>
+          <h1 class="hide__text">
+            <span class="intro__text">I create websites.</span>
+          </h1>
+        </div>
+      </div>
+      <!--------------- SLIDER -------------->
+      <div class="slider"></div>
+      <!--------------- ABOUT -------------->
+      <section id="about"></section>
+      <!--------------- CONTACT -------------->
+      <section id="contact"></section>
+    </main>
     <footer></footer>
 
     <script src="app.js"></script>

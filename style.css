@@ -5,3 +5,106 @@
   margin: 0;
   padding: 0;
 }
+
+/*---------------- HEADER---------------- */
+.top__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  color: aliceblue;
+}
+
+.logo {
+  padding-left: 4rem;
+  font-size: 1.5rem;
+}
+
+.menu__links {
+  display: flex;
+  padding-right: 4rem;
+  list-style: none;
+}
+
+.menu__link {
+  padding: 0rem 5rem;
+  font-size: 1.2rem;
+}
+
+.menu__link a {
+  text-decoration: none;
+  color: aliceblue;
+}
+/*---------------- LANDING PAGE---------------- */
+
+#landing {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 16, 28, 0.8), rgba(0, 16, 28, 0.2)), url("./assets/low-poly-grid-haikei.svg");
+  background-size: cover;
+}
+
+.landing__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%, -10%);
+  min-height: 100vh;
+}
+
+.landing__profile {
+  background-image: url("./assets/pfBG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 50vh;
+  border: 3px solid aliceblue;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.landing__text {
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+/*---------------- INTRO---------------- */
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.intro__texts {
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+.hide__text {
+  background: black;
+  overflow: hidden;
+}
+
+.hide__text span {
+  display: inline-block;
+  transform: translateY(100%);
+}
+/*---------------- SLIDER---------------- */
+.slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 16, 28);
+  transform: translateY(100%);
+}
+
+/*---------------- ABOUT---------------- */
+
+/*---------------- FOOTER---------------- */
