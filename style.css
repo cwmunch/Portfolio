@@ -167,7 +167,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  min-height: 100vh;
+  height: 90vh;
 }
 
 .landing__profile {
@@ -186,6 +186,18 @@ header {
   font-family: var(--header-font);
   letter-spacing: 0.2rem;
   margin: 0 1rem;
+}
+
+.arrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fas {
+  color: var(--text-clr);
+  font-size: var(--fs-l);
 }
 
 /*---------------- INTRO---------------- */
@@ -285,5 +297,9 @@ header {
   .landing__profile {
     width: 40vh;
     height: 40vh;
+  }
+
+  .intro__texts {
+    font-size: var(--fs-l);
   }
 }
