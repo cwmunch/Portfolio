@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poiret+One&display=swap" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
@@ -15,18 +18,33 @@
       <!--------------- LANDING PAGE-------------->
       <section id="landing">
         <!--------------- HEADER -------------->
-        <nav class="top__menu">
-          <h1 class="logo">C.W. Munch</h1>
-          <ul class="menu__links">
-            <li class="menu__link"><a href="#landing">Home</a></li>
-            <li class="menu__link"><a href="#about">About</a></li>
-            <li class="menu__link"><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <header id="top_header">
+          <div class="container">
+            <nav class="nav">
+              <a href="index.html" class="logo">C.W. Munch</a>
+              <ul class="nav-list">
+                <li>
+                  <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                  <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li>
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+              </ul>
+              <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </nav>
+          </div>
+        </header>
         <!--------------- LANDING-------------->
         <div class="landing__content">
           <div class="landing__profile"></div>
-          <h2 class="landing__text">Welcome to my portfolio</h2>
+          <h2 class="landing__text">Welcome to my website</h2>
         </div>
       </section>
       <!--------------- INTRO -------------->
